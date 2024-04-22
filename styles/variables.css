@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --tittle-font: "PressStart2P-Regular";
+    --text-font: "Inter-Variable";
+    --weight: 400;
+    --weight-accent: 700;
+    --bg-color: white;
+    --cards-color:#FFFFFF;
+    --border-color: #000000;
+    --contour-color: #000000;
+    --main-body-color: #000000;
+    --label-color: #000000;
+    --stroke-color: rgba(255, 255, 255, 1);
+    --sparks-color: #FF0000;
+    --accent-color: rgba(0, 0, 0, 1);
+    --background-gradient: repeating-linear-gradient(0deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  }
+
+

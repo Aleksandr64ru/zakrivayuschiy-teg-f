@@ -4,3 +4,119 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+  --bg-color: white;
+  --accent-color: rgba(0, 0, 0, 1);
+  --border-color: #000000;
+  --cards-color: #ffffff;
+  --weight: 400;
+  --weight-accent: 700;
+  --contour-color: #000000;
+  --label-color: #000000;
+  --sparks-color: #FF0000;
+  --stroke-color: rgba(255, 255, 255, 1);
+  --background-gradient: repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: white;
+    --accent-color: rgba(0, 0, 0, 1);
+    --border-color: #000000;
+    --cards-color: #ffffff;
+    --weight: 400;
+    --weight-accent: 700;
+    --label-color: #000000;
+    --contour-color: #000000;
+    --sparks-color: #FF0000;
+    --stroke-color: rgba(255, 255, 255, 1);
+    --background-gradient: repeating-linear-gradient(
+        0deg,
+        #d3d3d3 0px,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        #d3d3d3 0px,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  }
+}
+
+:root.theme-dark {
+  --bg-color: black;
+  --accent-color: rgba(0, 204, 20, 1);
+  --border-color: #00cc14;
+  --cards-color: #000000;
+  --weight: 465;
+  --weight-accent: 785;
+  --contour-color: #00cc14;
+  --label-color: #00CC14;
+  --stroke-color: #000000;
+  --sparks-color: #00CC14;
+  --background-gradient: repeating-linear-gradient(
+      0deg,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(180deg, #007f0c 0%, #004306 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: black;
+    --accent-color: rgba(0, 204, 20, 1);
+    --border-color: #00cc14;
+    --cards-color: #000000;
+    --weight: 465;
+    --weight-accent: 785;
+    --contour-color: #00cc14;
+    --label-color: #00CC14;
+    --sparks-color: #00CC14;
+    --stroke-color:#000000;
+    --background-gradient: repeating-linear-gradient(
+        0deg,
+        #000 0px,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        #000 0px,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(180deg, #007f0c 0%, #004306 100%);
+  }
+}
