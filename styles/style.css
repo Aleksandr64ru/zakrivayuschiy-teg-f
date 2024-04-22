@@ -25,7 +25,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-variation-settings: "wght" 400 785;
 }
 
 .header {
@@ -140,12 +139,12 @@ button {
 
 .subtitle_text {
   font-size: 18px;
-  font-weight: var(--weight-accent);
+  font-variation-settings: "wght" var(--weight-accent);;
 }
 
 p {
   line-height: 21px;
-  font-weight: var(--weight);
+  font-variation-settings: "wght" var(--weight);
 }
 
 .text__conteiner {
