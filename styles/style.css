@@ -102,6 +102,7 @@ button {
 .theme-menu__button:disabled {
   pointer-events: none;
   opacity: 0.6;
+  margin-inline-start: 1.5em;
 }
 
 .theme-menu__button:hover {
@@ -114,7 +115,7 @@ button {
   align-items: center;
   gap: 9px;
   margin-block-end: 20px;
-  margin-inline-start: 7px;
+  margin-inline-end: 2px;
 }
 
 .tittle__logo {
