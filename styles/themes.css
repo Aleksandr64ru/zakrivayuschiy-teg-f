@@ -76,7 +76,6 @@
   --label-color: #00CC14;
   --stroke-color: #000000;
   --like-color: #00CC14;
-  --sparks-color: #00CC14;
   --background-gradient: repeating-linear-gradient(
       0deg,
       #000 0px,
@@ -104,7 +103,6 @@
     --weight-accent: 785;
     --contour-color: #00cc14;
     --label-color: #00CC14;
-    --sparks-color: #00CC14;
     --like-color: #00CC14;
     --stroke-color:#000000;
     --background-gradient: repeating-linear-gradient(
