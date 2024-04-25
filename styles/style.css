@@ -23,7 +23,7 @@
   height: fit-content;
   gap: 20px;
   background-color: var(--cards-color);
-  margin-bottom: 102px;
+  margin-bottom: 100px;
 }
 
 @media (width <= 375px) {
@@ -72,6 +72,14 @@ button {
   transform: scale(1);
 }
 
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-inline-start: 17px;
+  margin-block-end: 25px;
+}
+
 .theme-menu__button:disabled::before {
   content: "▶";
   position: absolute;
@@ -86,20 +94,10 @@ button {
 .theme-menu__button:disabled {
   pointer-events: none;
   opacity: 0.6;
-  margin-inline-start: 1.5em;
 }
 
 .theme-menu__button:hover {
   opacity: 0.6;
-}
-
-.theme-menu__list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 9px;
-  margin-block-end: 25px;
-  margin-inline-end: 2px;
 }
 
 .tittle__logo {
@@ -125,12 +123,13 @@ button {
 }
 
 .article:not(:first-child) {
-  margin-block-start: 50px;
+  margin-block-start: 52px;
 }
 
 .subtitle_text {
   font-size: 18px;
   font-variation-settings: "wght" var(--weight-accent);
+  padding: 3px 3px 3px 10px;
 }
 
 .text__content {
@@ -145,15 +144,10 @@ button {
   gap: 28px;
 }
 
-.subtitle_text {
-  padding: 3px 0px 3px 10px;
-}
-
 .conteiner_image {
   width: 100%;
   height: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
   position: relative;
-  border: 2px solid var(--border-color);
 }
 
 .image {
@@ -164,8 +158,8 @@ button {
 .label_cards {
   position: absolute;
   z-index: 1;
-  top: 25px;
-  right: 25px;
+  top: 27px;
+  right: clamp(0.75rem, 0.486rem + 1.127vw, 1.5rem);
   bottom: 0;
   font-weight: 400;
   font-size: 14px;
@@ -292,12 +286,12 @@ button {
 
 .like-icon .contour {
   fill: var(--contour-color);
-  transition: fill 0.3s ease-in 0.06s;
+  transition: fill 0.1s linear;
 }
 
 .like-icon.is-liked .contour {
   fill: #ff0000;
-  transition: fill 0.1s linear;
+  transition: fill 0.3s linear 0.06s;
 }
 
 .buttton__save {
@@ -322,6 +316,7 @@ button {
   margin-block-start: 46px;
   display: flex;
   justify-content: center;
+  margin-block-end: clamp(6.25rem, 6.184rem + 0.282vw, 6.438rem);
 }
 
 .icon {
